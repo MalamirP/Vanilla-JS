@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.container {
+  height: 250px;
+  margin: 50px;
+  border: solid 3px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+h1 {
+  height: 150px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  font-size: larger;
+  color: rgb(82, 25, 253);
+  cursor: pointer;
+}
+
+.hidden-content {
+  display: none;
+}
+
+.hidden-content.reveal-btn {
+  display: block;
+}

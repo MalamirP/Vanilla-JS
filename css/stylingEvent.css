@@ -1,0 +1,46 @@
+* {
+  margin: 50px;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  /* margin: 15px; */
+}
+
+.container > h1 {
+  color: rgb(24, 23, 23);
+  height: 100px;
+  position: absolute;
+  top: -25px;
+  right: 250px;
+}
+
+.left {
+  width: 200px;
+  height: 350px;
+  border: 2px solid rgb(113, 108, 108);
+  border-radius: 15px;
+}
+
+.center {
+  width: 200px;
+  height: 350px;
+  border: 2px solid rgb(113, 108, 108);
+  border-radius: 15px;
+}
+
+.right {
+  width: 200px;
+  height: 350px;
+  border: 2px solid rgb(113, 108, 108);
+  border-radius: 15px;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border: 2px solid rgb(113, 108, 108);
+  border-radius: 15px;
+}
